@@ -3,7 +3,7 @@
 #### ~~Access Chesapeake Bay Data Hub by R~~ 
 <br/>
 #### OOPS!
-#### The website of Chesapeake Bay had been changed. There is no time period limitation now, and it's very convient to choose parameters.
+#### The website of Chesapeake Bay for downloading the data had been changed. There is no time period limitation now, and it's very convient to choose parameters.
 #### Download data from its [DataHub](http://www.chesapeakebay.net/data) directly.
 
 <br/>
@@ -20,11 +20,11 @@ R Version: R 3.1.3 on RStudio (0.98.1103)
 
 <br/>
 #### Require packages: XML
-install.packages('XML')
+install.packages('XML')  
 library(XML)
+
+
 <br/>
-
-
 #### Example
 First choose parameters, and save them in a vector.
 
