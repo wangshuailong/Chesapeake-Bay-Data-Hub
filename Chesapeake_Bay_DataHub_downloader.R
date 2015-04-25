@@ -7,26 +7,6 @@
 ###################################
 
 
-# Project name: Chesapeake Bay Data Hub Downloaded
-# Author: Shuailong WANG
-# Contact email: oopswangsl@gmail.com
-# Date: 04/01/2015
-# Working Plantform: Ubuntu 14.04 LTS
-# R Version: R 3.1.3 on RStudio (0.98.1103)
-
-
-# This script can be used to download data from Chesapeake Bay 
-# Data Hub : http://www.chesapeakebay.net/data
-# Now only data in 'HYDROLOGIC UNIT (HUC8)' under 'Current Water 
-# Quality Database(1984-present)' can be accessed by this script.
-
-# XML package is required.
-# install.packages('XML') if necessary
-require(XML)
-
-# Time period and parameters are optional.
-# The time period should be less than 4 years once.
-
 # Hereafter is the script
 
 # First, read the source of the page, which contains data.
